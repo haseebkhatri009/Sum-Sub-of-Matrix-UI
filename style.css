@@ -1,0 +1,53 @@
+body{
+    background-color: skyblue;
+}
+#mainheading{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+}
+#matrix-form{
+    /* border: 1px solid; */
+    width: 250px;
+    position: absolute;
+    left: 42%;
+}
+#input1{
+    height: 40px;
+    width: 250px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 15px;
+}
+#btn1{
+    border-radius: 8px;
+    margin-left: 25%;
+    height: 35px;
+    background-color: rgb(163, 189, 199);
+}
+#btn1:hover{
+    cursor: pointer;
+    background-color: rgb(103, 175, 204);
+    color: white;
+}
+#input-box1,#input-box2,#result-matrix{
+    /* border: 1px solid; */
+    margin-left: 100px;
+}
+#operation{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 50px;
+    height: 30px;
+    width: 150px;
+}
+#calculate{
+    background-color: rgb(163, 189, 199);
+    height: 30px;
+    width: 90px;
+}
+#calculate:hover{
+    cursor: pointer;
+    background-color: rgb(103, 175, 204);
+    color: white;
+}
